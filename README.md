@@ -8,3 +8,7 @@ npm install react-router-dom@5. Install the 6 version lately if needed. With the
 UseEffect Cleanup : 
 -cleanup fonction
 -use of an abort controller
+
+Programmatic Redirects :
+In create..js history.go(-1) is for directely after adding a new blog, the page of the details about it is shown. 
+But not needed staight away; instead of this : history.push to redirect to the home page.
