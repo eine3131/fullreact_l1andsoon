@@ -16,7 +16,7 @@ function App() {
             <Route path="/" component={Home} exact />
             <Route path="/create" component={Create} />
             <Route path="/blogs/:id" component={BlogDetails} />
-            <Route>
+            <Route path="*">
               <NotFound />
             </Route>
           </Switch>
